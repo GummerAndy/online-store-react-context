@@ -6,10 +6,10 @@ const ProductContext = React.createContext();
 class ProductProvider extends Component {
     render() {
         return (
-            <ProductProvider.ProductProvider value="Hello from context">
+            <ProductContext.Provider value="Hello from Phone App">
                 {this.props.children}
-            </ProductProvider.ProductProvider>
-        )
+            </ProductContext.Provider>
+        );
     }
 }
 
