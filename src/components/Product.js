@@ -16,10 +16,10 @@ export default class Product extends Component {
                             <img
                                 src={img}
                                 alt="Product"
-                                className="card-image-top" />
+                                className="card-img-top" />
                         </Link>
                         <button
-                            className="card-btn"
+                            className="cart-btn"
                             disabled={inCart ? true : false}
                             onClick={() => {
                                 console.log("added to cart");
@@ -79,7 +79,7 @@ const ProductWrapper = styled.div`
     .img-container:hover .card-img-top{
         transform: scale(1.2);
     }
-    .card-btn{
+    .cart-btn{
         position: absolute;
         bottom: 0;
         right: 0;
@@ -89,11 +89,11 @@ const ProductWrapper = styled.div`
         color: var(--mainWhite);
         font-size: 1.4rem;
         border-radius: 0.5rem 0 0 0;
-        ${'' /* transform: translate(100%, 100%);
-        transition: all 1s linear; */}
+        transform: translate(100%, 100%);
+        transition: all 1s linear;
 
     }
-    ${'' /* .img-container:hover .card-button{
+    .img-container:hover .cart-button{
         transform: translate(0, 0);
-    } */}
+    }
 `
