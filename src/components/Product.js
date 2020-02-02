@@ -29,7 +29,7 @@ export default class Product extends Component {
                                 {inCart ? (
                                     <p className="text-capitalize mb-0" disabled>
                                         {" "}
-                                        in inCart
+                                        in Cart
                             </p>
                                 ) : (<i className="fas fa-cart-plus" />)}
                             </button>
