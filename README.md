@@ -1,3 +1,7 @@
+## The Result
+
+[See the result here](https://react-store-using-context.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
